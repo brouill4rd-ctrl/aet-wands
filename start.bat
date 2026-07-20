@@ -1,0 +1,9 @@
+@echo off
+echo Uruchamianie Wszechnicy Magii Aeternum...
+echo.
+echo Sprawdzanie zaleznosci...
+call npm install
+echo.
+echo Uruchamianie serwera deweloperskiego...
+call npm run dev
+pause
